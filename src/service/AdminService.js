@@ -1,6 +1,6 @@
 import http from "./httpService";
 
-const apiEndpoint = "http://localhost:7500/api/admin";
+const apiEndpoint = "https://mi-learn.herokuapp.com/api/admin";
 
 http.setJwt(getJwt());
 
